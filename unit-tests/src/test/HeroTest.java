@@ -68,12 +68,13 @@ public class HeroTest {
 
 	@Test
 	public void testAttack() throws Exception {
+		System.out.println(hero.getLevel());
         Enemy enemy = new Enemy("Arthas Menethil", 5);
         assertThat(enemy, hasProperty("hp"));
         assertThat(enemy, hasProperty("hp", is(15 * 5)));
         double res = enemy.getHp();
         hero.attack(enemy);
-        assertThat((double)enemy.getHp(), is(closeTo(res - 5, res - 11)));
+      	assertThat((double)enemy.getHp(), is(closeTo(res - 2, res - 4)));
 	}
 
 }
