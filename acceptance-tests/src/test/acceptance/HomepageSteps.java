@@ -52,6 +52,43 @@ public class HomepageSteps {
 	    // assertEquals(driver.findElement(By.xpath("//meta[@name='description']")).getAttribute("content"), arg1);
 	}
 
+	@Then("^TO BE COMPLETED$")
+	public void to_BE_COMPLETED() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Given("^le bloc des \"([^\"]*)\" est présent$")
+	public void le_bloc_des_est_présent(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@When("^je clic sur le bouton \"([^\"]*)\"$")
+	public void je_clic_sur_le_bouton(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^je suis sur la page \"([^\"]*)\"$")
+	public void je_suis_sur_la_page(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^la recherche est initialisé sur un rayon de \"([^\"]*)\" autour de \"([^\"]*)\", FR$")
+	public void la_recherche_est_initialisé_sur_un_rayon_de_autour_de_FR(String arg1, String arg2) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Given("^le bouton inscription contient \"([^\"]*)\"$")
+	public void le_bouton_inscription_contient(String arg1) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+
 	@After
 	public void afterScenario() {
 		driver.quit();
